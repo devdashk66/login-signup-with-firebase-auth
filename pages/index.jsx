@@ -65,12 +65,12 @@ const index = () => {
           )}
           {isUser && (
             <div className="absolute top-5 right-0 flex justify-between items-center w-full px-5">
-              <h1 className="bg-[#3B3B3B] w-12 h-12 flex items-center justify-center rounded-full text-2xl ">
+              <h1 className="bg-blue-500 w-12 h-12 flex items-center justify-center rounded-full text-2xl ">
                 {isUser?.email.slice(0, 1).toUpperCase()}
               </h1>
               <h1
                 onClick={handleSignOut}
-                className="px-10 cursor-pointer py-3 rounded-md bg-[#3B3B3B] text-white"
+                className="px-10 cursor-pointer py-3 rounded-md bg-red-500 text-white"
               >
                 Log Out
               </h1>
